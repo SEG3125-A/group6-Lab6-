@@ -1,0 +1,23 @@
+{
+  "name": "lab1-seg3125",
+  "version": "1.0.0",
+  "description": "Construction of a survey's user interface by : Ba Aminata 300108851 Ahbala Fawzi 300142980",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BAminata/Lab1-seg3125.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BAminata/Lab1-seg3125/issues"
+  },
+  "homepage": "https://github.com/BAminata/Lab1-seg3125#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}

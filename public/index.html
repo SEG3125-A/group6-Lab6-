@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Evaluation Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Website Evaluation</h1>
+        <a href="file:///D:/SEG%203125/lab1/index.html" class="d-block text-center mb-4">
+            <img src="https://th.bing.com/th/id/OIP.v6W7Rjb_WZmJHo0r1bepuQAAAA?rs=1&pid=ImgDetMain" alt="Website screenshot" class="website-image img-thumbnail">
+        </a>
+        
+        <form action="/niceSurvey" method="post">
+            <!-- Text Input -->
+            <div class="form-group">
+                <label for="question1">What is your overall impression of the website?</label>
+                <input type="text" class="form-control" id="question1" name="question1">
+            </div>
+
+            <!-- Radio Buttons -->
+            <div class="form-group">
+                <label>Is the website easy to navigate?</label>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="yes" name="navigation" class="custom-control-input" value="yes">
+                    <label class="custom-control-label" for="yes">Yes</label>
+                </div>
+                <div class="custom-control custom-radio">
+                    <input type="radio" id="no" name="navigation" class="custom-control-input" value="no">
+                    <label class="custom-control-label" for="no">No</label>
+                </div>
+            </div>
+
+            <!-- Dropdown List -->
+            <div class="form-group">
+                <label for="question3">How often do you visit this website?</label>
+                <select id="question3" class="form-control" name="question3">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                    <option value="rarely">Rarely</option>
+                </select>
+            </div>
+
+            <!-- Checkboxes -->
+            <div class="form-group">
+                <label>Which features do you use?</label>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" id="feature1" name="feature1" class="custom-control-input" value="feature1">
+                    <label class="custom-control-label" for="feature1">Viewing Course Videos</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" id="feature2" name="feature2" class="custom-control-input" value="feature2">
+                    <label class="custom-control-label" for="feature2">Participation in quizzes and exams</label>
+                </div>
+            </div>
+
+            <!-- Date Picker -->
+            <div class="form-group">
+                <label for="visitDate">When did you last visit the website?</label>
+                <input type="date" class="form-control" id="visitDate" name="visitDate">
+            </div>
+
+            <!-- Number Input -->
+            <div class="form-group">
+                <label for="age">Your age:</label>
+                <input type="number" class="form-control" id="age" name="age" min="0" max="100">
+            </div>
+
+            <!-- Email Input -->
+            <div class="form-group">
+                <label for="email">Your email (optional):</label>
+                <input type="email" class="form-control" id="email" name="email">
+            </div>
+
+            <!-- Textarea for Comments -->
+            <div class="form-group">
+                <label for="comments">Additional comments:</label>
+                <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <!-- Signature -->
+        <p class="text-center mt-4">Website designed by Aminata et Fawzi</p>
+    </div>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
