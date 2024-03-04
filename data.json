@@ -1,10 +1,26 @@
 {
-  "impressions": [],
-  "navigationEase": [],
-  "visitFrequency": [],
-  "usedFeatures": [],
-  "lastVisitDate": [],
-  "ageData": [],
-  "emailData": [],
-  "additionalComments": []
+  "question1": [
+    "good"
+  ],
+  "navigation": [
+    "yes"
+  ],
+  "question3": [
+    "daily"
+  ],
+  "feature1": [
+    "feature1"
+  ],
+  "visitDate": [
+    "2024-03-08"
+  ],
+  "age": [
+    "56"
+  ],
+  "email": [
+    "aba@y.fr"
+  ],
+  "comments": [
+    "none"
+  ]
 }
